@@ -1,0 +1,27 @@
+{
+  "name": "with-selector",
+  "version": "1.0.0",
+  "description": "Just a react hoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distums/withSelector.git"
+  },
+  "keywords": [],
+  "author": "yiqidaoshan@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/distums/withSelector/issues"
+  },
+  "homepage": "https://github.com/distums/withSelector#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "react": "^16.12.0"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  }
+}
