@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "sourceMap": true,
+    "target": "ES2015"
+  },
+  "include": ["src/**/*"]
+}
