@@ -2,9 +2,11 @@
   "name": "with-selector",
   "version": "1.0.0",
   "description": "Just a react hoc",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "es/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,13 @@
   },
   "homepage": "https://github.com/distums/withSelector#readme",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^2.1.0",
     "@types/react": "^16.9.17",
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "rollup": "^1.29.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
   },
   "peerDependencies": {
     "react": ">=16"
