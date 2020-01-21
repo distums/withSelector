@@ -1,13 +1,19 @@
 {
-  "name": "with-selector",
+  "name": "@distums/with-selector",
   "version": "1.0.0",
   "description": "Just a react hoc",
   "main": "dist/index.js",
   "module": "es/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup --config"
+    "build": "rollup --config",
+    "prepack": "npm run build"
   },
+  "files": [
+    "src/",
+    "dist",
+    "es"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/distums/withSelector.git"
